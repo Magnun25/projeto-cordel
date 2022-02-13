@@ -43,31 +43,15 @@ a:hover {
 } 
 
 main article {
-    padding: 40px 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-main article.sombra {
-    box-shadow: 5px 0px 15px black;
-}
 main p {
     font-family: var(--fonte-text);
     font-size: 4vw;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-#container1 {
-    background: black url('../imagens/background001.jpg') no-repeat center center / cover fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.473);
-}
-
-#container2 {
-    background: black url('../imagens/background002.jpg') no-repeat center center / cover fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.425);
+    margin-left: 30px;
+    line-height: 2em;
 }
 
 p.conteudo {
@@ -76,6 +60,16 @@ p.conteudo {
     width: 50vw;
     color: white;
     margin-left: 20px;
+}
+
+#imagem1 {
+    background: black url('../imagens/background001.jpg') no-repeat center center / cover fixed;
+    box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.473);
+}
+
+#imagem2 {
+    background: black url('../imagens/background002.jpg') no-repeat center center / cover fixed;
+    box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.425);
 }
 
 footer {
