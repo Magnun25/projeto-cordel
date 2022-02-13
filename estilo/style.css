@@ -52,19 +52,21 @@ main article.sombra {
 main p {
     font-family: var(--fonte-text);
     font-size: 4vw;
-    margin-bottom: 40px;
-    margin-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #container1 {
     background: black url('../imagens/background001.jpg') no-repeat center center / cover fixed;
-    padding: 50px 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.473);
 }
 
 #container2 {
     background: black url('../imagens/background002.jpg') no-repeat center center / cover fixed;
-    padding: 50px 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     box-shadow:inset 6px 6px 15px rgba(0, 0, 0, 0.425);
 }
 
